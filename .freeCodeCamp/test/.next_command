@@ -153,3 +153,7 @@ __vsc_prompt_cmd_original
 clear
 ./salon.sh
 ./salon.sh
+git remote add origin https://github.com/pedropedroh/salon-scheduler.git
+git remote remove origin
+git remote add origin https://github.com/pedropedroh/salon-scheduler.git
+git add .
