@@ -157,3 +157,11 @@ git remote add origin https://github.com/pedropedroh/salon-scheduler.git
 git remote remove origin
 git remote add origin https://github.com/pedropedroh/salon-scheduler.git
 git add .
+git commit -m 'finished project'
+git push
+git push --set-upstream origin main
+psql -U postgres < salon.sql
+touch salon.sql
+psql -U postgres < salon.sql
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
